@@ -5,6 +5,7 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
 import canvasCover from "../../Assets/Projects/canvasCover.png";
+import chatify from "../../Assets/Projects/chatify.jpg";
 import apiCover from "../../Assets/Projects/apiCover.jpg";
 import mikael from "../../Assets/Projects/whatev.png";
 
@@ -16,9 +17,7 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Coming Soon!
-        </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -28,6 +27,9 @@ function Projects() {
               description="Loqulii is a social media platform that will allow users the ability to connect directly with with the social media posts and upcoming events in their local area. Inspration for this app centers around encouraging and easing integration back into our communities as Covid restrictions begin to ease."
               link="https://loqulii.herokuapp.com/"
             />
+                    <p style={{ color: "white" }}>
+          latest update: chat functionality
+        </p>
           </Col>
         </Row>
         {/*
