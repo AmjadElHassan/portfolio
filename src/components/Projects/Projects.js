@@ -82,9 +82,9 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={canvasCover}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              link="https://codemonkeycove.com/designing-your-own-html-canvas-button-system/"
+              title="MODULAR PROGRAMMING FOR TEAMWORK: Designing an effective button system for canvas applications"
+              site="codemonkeycove.com"
             />
           </Col>
           <Col md={4} className="blog-card">
