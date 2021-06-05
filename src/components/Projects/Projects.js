@@ -19,17 +19,18 @@ function Projects() {
         <p style={{ color: "white" }}>
           Coming Soon!
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Loqilee"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="loqulii"
+              description="Loqulii is a social media platform that will allow users the ability to connect directly with with the social media posts and upcoming events in their local area. Inspration for this app centers around encouraging and easing integration back into our communities as Covid restrictions begin to ease."
+              link="https://loqulii.herokuapp.com/"
             />
           </Col>
-
+        </Row>
+        {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
@@ -70,7 +71,7 @@ function Projects() {
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
-        </Row> */}
+        */}
         <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
