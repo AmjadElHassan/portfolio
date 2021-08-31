@@ -6,6 +6,8 @@ import Particle from "../Particle";
 
 import canvasCover from "../../Assets/Projects/canvasCover.png";
 import chatify from "../../Assets/Projects/chatify.jpg";
+import pianoTutor from "../../Assets/Projects/pianotutor.png";
+import lego from "../../Assets/Projects/lego.jpg";
 import apiCover from "../../Assets/Projects/apiCover.jpg";
 import mikael from "../../Assets/Projects/whatev.png";
 
@@ -21,15 +23,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pianoTutor}
+              isBlog={false}
+              title="Augmented Reality Piano Tutor"
+              description="Piano Tutor is an augmented reality teaching application that allows the user to play the piano by interacting with the piano keys digitally through your camera stream."
+              link="https://amjadelhassan.github.io/PianoTutor//"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="loqulii"
               description="Loqulii is a social media platform that will allow users the ability to connect directly with with the social media posts and upcoming events in their local area. Inspration for this app centers around encouraging and easing integration back into our communities as Covid restrictions begin to ease."
               link="https://loqulii.herokuapp.com/"
             />
-                    <p style={{ color: "white" }}>
-          latest update: chat functionality
-        </p>
+            <p style={{ color: "white" }}>
+              latest update: chat functionality
+            </p>
           </Col>
         </Row>
         {/*
@@ -84,6 +95,14 @@ function Projects() {
               imgPath={canvasCover}
               link="https://codemonkeycove.com/designing-your-own-html-canvas-button-system/"
               title="MODULAR PROGRAMMING FOR TEAMWORK: Designing an effective button system for canvas applications"
+              site="codemonkeycove.com"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath={lego}
+              link="https://codemonkeycove.herokuapp.com/using-html-canvas/"
+              title="MODULAR PROGRAMMING INTRODUCTION: Programming for html Canvas"
               site="codemonkeycove.com"
             />
           </Col>
