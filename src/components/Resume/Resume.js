@@ -43,13 +43,25 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Founder/Node Developer at Puffin Design Lab"
-              date="mar 2020 - present"
+              date="mar 2020 - July 2021"
               content={[
                 "Responsible for managing and training a team of engineers and designers in completing technical projects for Client companies.",
                 " Deployed FullStack E-commerce applications and websites via Amazon Web Service (BeanStalk) and Heroku.",
                 "Updated and created existing databases with GraphQL query interfaces to produce more efficient, and pertinent application results."
               ]}
             />
+            <Resumecontent
+              title="Senior Full Stack Engineer at ClassDojo"
+              date="August 2021 - present"
+              content={[
+                "Created, Managed, and collaborated on creating a new optimized, and high quality iteration of the classdojo application for Android",
+                "Primarily focused on creating intuitive UI interactions of a react application running on Next.JS wrapped in a flutter handler",
+                "trained new junior engineers and created high quality documentation on complicated aspects of the project",
+                "Adept at guaranteeing effective Test-Driven development using Jest, Cypress, and Playwright",
+                "Worked directly with product team and designers to create a human-first intuitive approach to front-end client"
+              ]}
+            />
+
             {/* <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
               title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
