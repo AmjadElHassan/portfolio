@@ -19,7 +19,7 @@ function Home2() {
               ALLOW ME TO<span className="purple"> RE-INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Just a biochemist who found the truth of his life wrapped inside an h1 tag.<br></br><br></br> I am a lead FullStack Node Programmer working as the CTO and founder of the tech consultancy: <a href='https://puffindesignlab.com'><b className="purple">Puffin Design Lab.</b></a> <br></br><br></br>
+            Just a biochemist who found the truth of his life wrapped inside an h1 tag.<br></br><br></br> I am a Senior FullStack Programmer working at <b className="purple">ClassDojo</b> <br></br><br></br>
             ...but at the end of the day, what I really am is a kid from Virginia just looking for his next big project! Check out the latest software i'm working on at my  
             <a target='_blank' href='https://github.com/amjadelhassan'><b className="purple"> github</b></a>! find my latest art pieces on <a href="https://instagram.com/bloopysoup"><b className="purple"> instagram</b></a> or read my latest <a href="https://codemonkeycove.herokuapp.com/"><b className="purple"> web development articles/tutorials!</b></a> Have fun exploring and thanks for stopping by!
 
